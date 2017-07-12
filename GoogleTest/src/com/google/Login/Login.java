@@ -17,7 +17,7 @@ public class Login {
 
 		driver.findElement(By.id("password")).sendKeys("hflkfkl");
 		driver.findElement(By.xpath("//*[@id='passwordNext']/content/span"));
-		System.out.println("Done finally great");
+		
 		
 
 	}
