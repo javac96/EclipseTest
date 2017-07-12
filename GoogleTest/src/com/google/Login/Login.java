@@ -13,10 +13,10 @@ public class Login {
 		driver = new ChromeDriver();
 		driver.get("www.gmail.com");
 		
-		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("rhasan3860@gmail.com");
+		//driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("rhasan3860@gmail.com");
 
-		driver.findElement(By.id("password")).sendKeys("hflkfkl");
-		driver.findElement(By.xpath("//*[@id='passwordNext']/content/span"));
+		//driver.findElement(By.id("password")).sendKeys("hflkfkl");
+		//driver.findElement(By.xpath("//*[@id='passwordNext']/content/span"));
 		System.out.println("Finally succeeded");
 		
 
